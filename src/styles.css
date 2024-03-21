@@ -1,0 +1,71 @@
+
+body {
+  background:  linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+}
+img{
+  max-width: 50px;
+}
+.container {
+  text-align: center;
+  margin-top: 10px;
+  margin: 15px;
+  padding: 30px;
+  line-height: 40px;
+}
+.container h1{
+  font-size: 60px;
+}
+.container h1:hover{
+  color: aqua;
+}
+.container h2{
+  font-size: 35px;
+}
+.container h2:hover{
+color: aquamarine;
+}
+
+
+.container p {
+  line-height: 30px;
+}
+
+.container p:hover {
+  cursor: pointer;
+
+}
+.content {
+  display: flex;
+  justify-content: center;
+}
+.about{
+  text-align: center;
+  margin-top:0;
+  background: aquamarine;
+}
+.about h3{
+  font-size: 60px;
+}
+.book{
+  background: white;
+}
+.book h4{
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 20px;
+  background: aquamarine;
+}
+.book p{
+  font-size: 25px;
+}
+.book-now{
+  font-size: 35px;
+  margin-top: 10px;
+  text-align: center;
+  background: aqua;
+}
+.mail{
+  text-align: center;
+  font-size: 25px;
+  background: aquamarine;
+}
